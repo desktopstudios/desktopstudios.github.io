@@ -1,5 +1,5 @@
 body {
-font-family:"Arial, Helvetica, sans-serif";
+font-family:Arial, Helvetica, sans-serif;
 background-color:#F1F6F9;
 background-image:url('imgs/bg.jpg');
 background-repeat:no-repeat;
@@ -18,12 +18,15 @@ padding-left:50px;
 
 p {
 text-align:center;
+
 }
 
-#text {
+.text {
 text-align:center;
-border:5px solid;
-background: #E80F47;
+position: relative;
+top: 50%;
+display: inline-block;
+margin: auto auto;
 }
 
 
@@ -32,5 +35,7 @@ text-align:center;
 color: #fff;
 text-shadow: none;
 background: #E80F47;
+display: inline-block;
+padding: 5px;
 }
 
